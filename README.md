@@ -2,7 +2,7 @@
 ## Ping stuff in a CSV File
 #
 
-# Exmaple Run
+# Example Run
 
 Here is a CSV File with some addresses. 
 ```
