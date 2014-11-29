@@ -2,6 +2,8 @@
 ## Ping stuff in a CSV File
 #
 
+# Exmaple Run
+
 Here is a CSV File with some addresses. 
 ```
 csv2ping_util$ cat ./test/root_servers.csv
@@ -39,4 +41,15 @@ Password:
 "k.root-servers.net","193.0.14.129","RIPE NCC","UP"
 "l.root-servers.net","199.7.83.42","ICANN","UP"
 "m.root-servers.net","202.12.27.33","WIDE Project","UP"
+```
+
+# Install
+
+To install simply copy bin/pingcsv.pl to a place in your $PATH. 
+```
+cp bin/pingcsv.pl /usr/local/bin/pingcsv
+```
+Now you can do a command like below. 
+```
+cat path/to/file.csv | pingcsv
 ```
