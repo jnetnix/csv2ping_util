@@ -20,7 +20,7 @@ csv2ping_util$ cat ./test/root_servers.csv
 "l.root-servers.net","199.7.83.42","ICANN"
 "m.root-servers.net","202.12.27.33","WIDE Project"
 ```
- 
+
  Here is a ping of each address in each row.  
 ```
 csv2ping_util$ cat ./test/root_servers.csv | sudo ./bin/pingcsv.pl
